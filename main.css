@@ -102,45 +102,42 @@ section {
   font-size: 1.25rem;
   width: 100%; 
   height: auto;
-  max-width: fit-content;
-  max-height: fit-content;
-  min-width: relative;
-  min-height: relative;
-}
+  display:flex;
+}  
 
 @supports (background-blend-mode: multiply) {
   .hero {
-    background: url(https://i.ibb.co/9TgW7Dy/shoe-2.png),
-    radial-gradient(#444, #111);
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center; 
+  background: url(https://i.ibb.co/9TgW7Dy/shoe-2.png),
+  radial-gradient(#444, #111);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center; 
   }
 }
 
 .featured {
-    background: #eee;
+  background: #eee;
 }
 
 .featured__item {
-    display: block;
-    position: relative;
-    -webkit-transform: scale(0.85);
-            transform: scale(0.85);
-    -webkit-transition: -webkit-transform 250ms ease-in-out;
-    transition: -webkit-transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out;
-    transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-    text-decoration: none; 
-    color: #333;
-    text-align: center;
-    line-height: 1.2;
+  display: block;
+  position: relative;
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  text-decoration: none; 
+  color: #333;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .featured__item:hover, .featured__item:focus {
-    -webkit-transform: scale(1);
-            transform: scale(1);
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .featured__item:hover .featured__details, .featured__item:focus .featured__details {
@@ -149,14 +146,14 @@ section {
 }
 
 .featured__item::after {
-    content: '';
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    padding: 75% 75% 0 0;
-    border-radius: 50%;
-    background: #2193b0;
-    z-index: -1;
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  padding: 75% 75% 0 0;
+  border-radius: 50%;
+  background: #2193b0;
+  z-index: -1;
 }
 
 .featured__details {
@@ -215,7 +212,7 @@ section {
 }
 
 .hero {
-    --clr-accent: #faa700;
+  --clr-accent: #faa700;
 }
 
 .shoe-red {
