@@ -137,7 +137,7 @@ section {
 
 .featured__item:hover .featured__details, .featured__item:focus .featured__details {
   opacity: 1;
-  text-shadow: 0 0 2em white;
+  text-shadow: 0 0 2em #fff;
 }
 
 .featured__item::after {
@@ -164,7 +164,7 @@ section {
 }
 
 .product {
-  background: radial-gradient(var(--clr-inner, limegreen), var(--clr-outer, purple));
+  background: radial-gradient(var(--clr-inner, #32cd32), var(--clr-outer, #800080));
   padding: 3em;
   border-radius: 1em;
   margin-bottom: 5em;
@@ -216,13 +216,13 @@ section {
   --clr-accent: #a1173c;
 }
 
-.shoe-white {
+.shoe-black {
   --clr-inner: #fce4b3;
   --clr-outter: #eac886;
   --clr-accent: #2f4858;
 }
 
-.shoe-blue {
+.shoe-white {
   --clr-inner: #6dd5ed;
   --clr-outter: #2193b0;
   --clr-accent: #008951;
