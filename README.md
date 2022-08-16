@@ -1,2 +1,2 @@
-- This is a recreation of a sneaker landing page made with HTML & CSS.
+- This is a sneaker store landing page made with HTML & CSS.
 
