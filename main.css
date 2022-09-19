@@ -106,7 +106,7 @@ section {
 @supports (background-blend-mode: multiply) {
   .hero {
   background: url(https://i.ibb.co/9TgW7Dy/shoe-2.png) no-repeat center center/cover,
-  radial-gradient(#444, #111);
+  radial-gradient(#888, #333);
   background-blend-mode: multiply;
   }
 }
